@@ -1,5 +1,5 @@
 const express = require("express");
-const {createCanvas} = require("canvas");
+const {createCanvas, registerFont} = require("canvas");
 const echarts = require("echarts");
 const router = express.Router();
 
