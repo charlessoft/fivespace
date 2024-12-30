@@ -1,10 +1,11 @@
 const express = require("express");
 const {createCanvas, registerFont} = require("canvas");
 const echarts = require("echarts");
+const {join} = require("path");
 const router = express.Router();
 
 // 加载中文字体
-registerFont(path.join(__dirname, '../fonts/NotoSansCJK-Regular.ttc'), { family: 'Noto Sans CJK' });
+registerFont(join(__dirname, '../fonts/NotoSansCJK-Regular.ttc'), { family: 'Noto Sans CJK' });
 
 /**
  * GET product list.
