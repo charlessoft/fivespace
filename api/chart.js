@@ -75,7 +75,7 @@ router.post('/', (req, res) => {
   res.send(buffer);
 });
 
-app.get('/base64', (req, res) => {
+router.get('/base64', (req, res) => {
   const width = 800; // 图表宽度
   const height = 600; // 图表高度
   const canvas = createCanvas(width, height);
