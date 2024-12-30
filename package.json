@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/hatuanem199801/express-vercel#readme",
   "dependencies": {
+    "body-parser": "^1.20.3",
     "canvas": "^3.0.0",
     "echarts": "^5.6.0",
     "express": "^4.21.2"
